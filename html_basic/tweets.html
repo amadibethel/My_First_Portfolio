@@ -5,21 +5,30 @@
     <title>My Tweets</title>
 </head>
 <body>
-    <h1>Embedded Tweet</h1>
+    <header>
+        <h1>My Tweet Page</h1>
+        <nav>
+            <a href="index.html">← Back to Homepage</a>
+        </nav>
+    </header>
 
-    <p>Here's a tweet I found interesting:</p>
+    <main>
+        <section>
+            <h2>Featured Tweet</h2>
+            <p>Here’s a tweet I found insightful:</p>
 
-    <!-- Embedded tweet from Twitter -->
-    <blockquote class="twitter-tweet">
-        <p lang="en" dir="ltr">
-            Build things, break things, learn, repeat.
-        </p>
-        &mdash; Elon Musk (@elonmusk) 
-        <a href="https://twitter.com/elonmusk/status/1327380021765455874">November 13, 2020</a>
-    </blockquote>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <!-- Embedded tweet -->
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">Build things, break things, learn, repeat.</p>
+                &mdash; Elon Musk (@elonmusk)
+                <a href="https://twitter.com/elonmusk/status/1327380021765455874">November 13, 2020</a>
+            </blockquote>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </section>
+    </main>
 
-    <!-- Link back to homepage -->
-    <p><a href="index.html">← Back to homepage</a></p>
+    <footer>
+        <p>© 2025 Bethel Amadi — All rights reserved.</p>
+    </footer>
 </body>
 </html>
